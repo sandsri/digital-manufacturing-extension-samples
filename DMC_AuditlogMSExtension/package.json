@@ -33,5 +33,8 @@
         "cflogin": "cf login -a https://api.cf.sap.hana.ondemand.com --sso",
         "build": "mbt build",
         "deploy": "cf bg-deploy mta_archives/com.sap.dm.dme.advauditapp.ms_1.0.1.mtar -f --no-confirm"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
     }
 }
